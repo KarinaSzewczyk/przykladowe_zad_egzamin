@@ -1,7 +1,8 @@
 #include <iostream>
+#include <cstring>
 
-/*Do tablic A,B[1..w,1..k] (w,k-sta³e) wczytaæ rekordy postaci (nazwa, cena).
- Wydrukowaæ, ile elementów tablicy A ma cenê wiêksz¹ od 1000 i ile elementów tablicy B ma cenê wiêksz¹ od 2000.*/
+/*Do tablic A,B[1..w,1..k] (w,k-staï¿½e) wczytaï¿½ rekordy postaci (nazwa, cena).
+ Wydrukowaï¿½, ile elementï¿½w tablicy A ma cenï¿½ wiï¿½kszï¿½ od 1000 i ile elementï¿½w tablicy B ma cenï¿½ wiï¿½kszï¿½ od 2000.*/
 
 using namespace std;
 
