@@ -1,7 +1,7 @@
 #include <iostream>
 
-/*	Wczytaæ punkty - rekordy postaci (x, y) do tablic A,B[1..n,1..n].
-W ka¿dej tablicy zamieniæ miejscami dwa skrajne elementy na g³ównej przek¹tnej.*/
+/*	Wczytaï¿½ punkty - rekordy postaci (x, y) do tablic A,B[1..n,1..n].
+W kaï¿½dej tablicy zamieniï¿½ miejscami dwa skrajne elementy na gï¿½ï¿½wnej przekï¿½tnej.*/
 
 using namespace std;
 
@@ -17,7 +17,7 @@ int main()
     Point A[n][n];
     Point B[n][n];
 
-    cout << "Wczytaj liczby calkowite do tablicy rekordow" << endl;
+    cout << "Wczytaj liczby calkowite do tablicy rekordow" << endl;    //Load integers to array
 
     for(int i = 0; i < n; i++)
         for(int j = 0; j < n; j++)
@@ -27,14 +27,14 @@ int main()
         for(int j = 0; j < n; j++)
             cin >> B[i][j].x >> B[i][j].y;
 
-    cout << "TABLICA A: " << endl;
+    cout << "TABLICA A: " << endl;                                //Table A
     for(int i = 0; i < n; i++)
         {
             for(int j = 0; j < n; j++)
                 cout << A[i][j].x << "," << A[i][j].y << " ";
             cout << endl;
         }
-    cout << endl << "TABLICA B: " << endl;
+    cout << endl << "TABLICA B: " << endl;                         //Table B
         for(int i = 0; i < n; i++)
         {
             for(int j = 0; j < n; j++)
